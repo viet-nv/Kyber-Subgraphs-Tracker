@@ -1,0 +1,17 @@
+body[data-theme='light'] {
+  --colors-primary: #fcd118;
+  --colors-text: #333333;
+  --colors-link: #1677ff;
+  --colors-sub-text: #57606a;
+  --colors-bg1: #f8f8f8;
+  --colors-bg2: #ffffff;
+  --colors-border: #c1c1c1;
+  --box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+  font-size: 14px;
+}
+
+body[data-theme='dark'] {
+  --colors-primary: #fcd118;
+  --colors-background: #f8f8f8;
+}
