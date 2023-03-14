@@ -3,6 +3,7 @@ export enum TAB {
   Classic = 'classic',
   Block = 'block',
   Aggregator = 'aggregator',
+  VietNV = 'elastic-viet-nv',
 }
 
 export const config: {
@@ -333,6 +334,87 @@ export const config: {
         'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-aurora',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-aurora',
+    },
+  ],
+
+  'elastic-viet-nv': [
+    {
+      network: 'Ethereum',
+      kyberLink:
+        'https://ethereum-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-ethereum',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-ethereum',
+    },
+    {
+      network: 'BSC',
+      kyberLink:
+        'https://bsc-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-bsc',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-bsc',
+    },
+    {
+      network: 'Polygon',
+      kyberLink:
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-polygon',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-matic',
+    },
+    {
+      network: 'Avalanche',
+      kyberLink:
+        'https://avalanche-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-avalanche',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-avalanche',
+    },
+    {
+      network: 'Arbitrum',
+      kyberLink:
+        'https://arbitrum-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-arbitrum',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-arbitrum-one',
+    },
+    {
+      network: 'Optimism',
+      kyberLink:
+        'https://optimism-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-optimism',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-optimism',
+    },
+    {
+      network: 'Fantom',
+      kyberLink:
+        'https://fantom-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-fantom',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-fantom',
+    },
+    {
+      network: 'BTTC',
+      kyberLink:
+        'https://bttc-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-bttc',
+      thegraphLink: '',
+    },
+    {
+      network: 'Cronos',
+      kyberLink:
+        'https://cronos-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-cronos',
+      thegraphLink: '',
+    },
+    {
+      network: 'Velas',
+      kyberLink:
+        'https://velas-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-velas',
+      thegraphLink: '',
+    },
+    {
+      network: 'Oasis',
+      kyberLink:
+        'https://oasis-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-oasis',
+      thegraphLink: '',
+    },
+    {
+      network: 'Aurora',
+      kyberLink: '',
+      thegraphLink: '',
     },
   ],
 }
