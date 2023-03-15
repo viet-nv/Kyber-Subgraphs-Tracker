@@ -97,6 +97,7 @@ const SingleCheck = ({ url }: { url: string }) => {
     number: null,
     timestamp: null,
     hasIndexingErrors: false,
+    deployment: '',
   })
 
   const check = useCallback(async () => {
@@ -110,6 +111,7 @@ const SingleCheck = ({ url }: { url: string }) => {
               number
               timestamp
             }
+            deployment
           }
         }`,
       }),
@@ -118,6 +120,7 @@ const SingleCheck = ({ url }: { url: string }) => {
     setData({
       ...res?.data?._meta?.block,
       hasIndexingErrors: res?.data?._meta.hasIndexingErrors,
+      deployment: res?.data?._meta.deployment,
     })
   }, [url])
 
@@ -144,6 +147,7 @@ const SingleCheck = ({ url }: { url: string }) => {
         {data.timestamp && <>({dayjs(data.timestamp * 1000).fromNow()})</>}
       </div>
 
+      <div>ID: {data.deployment}</div>
       {data.hasIndexingErrors && (
         <div css={{ color: '#f81d22' }}>indexing_error</div>
       )}
