@@ -107,7 +107,7 @@ export const config: {
     {
       network: 'Polygon',
       kyberLink:
-        'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-avalanche',
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-polygon',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-polygon',
     },
