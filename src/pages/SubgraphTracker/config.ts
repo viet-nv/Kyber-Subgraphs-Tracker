@@ -4,6 +4,7 @@ export enum TAB {
   Block = 'block',
   Aggregator = 'aggregator',
   VietNV = 'elastic-viet-nv',
+  ELASTIC_LEGACY = 'elastic-legacy',
 }
 
 export const config: {
@@ -409,6 +410,80 @@ export const config: {
       network: 'Oasis',
       kyberLink:
         'https://oasis-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-oasis',
+      thegraphLink: '',
+    },
+    {
+      network: 'Aurora',
+      kyberLink: '',
+      thegraphLink: '',
+    },
+  ],
+
+  'elastic-legacy': [
+    {
+      network: 'Ethereum',
+      kyberLink:
+        'https://ethereum-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-ethereum-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'BSC',
+      kyberLink:
+        'https://bsc-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-bsc-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Polygon',
+      kyberLink:
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-polygon-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Avalanche',
+      kyberLink:
+        'https://avalanche-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-avalanche-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Arbitrum',
+      kyberLink:
+        'https://arbitrum-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-arbitrum-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Optimism',
+      kyberLink:
+        'https://optimism-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-optimism-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Fantom',
+      kyberLink:
+        'https://fantom-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-fantom-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'BTTC',
+      kyberLink:
+        'https://bttc-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-bttc-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Cronos',
+      kyberLink:
+        'https://cronos-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-cronos-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Velas',
+      kyberLink:
+        'https://velas-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-velas-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Oasis',
+      kyberLink:
+        'https://oasis-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-oasis-legacy',
       thegraphLink: '',
     },
     {
