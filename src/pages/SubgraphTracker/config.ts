@@ -171,6 +171,12 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-aurora',
     },
+    {
+      network: 'ZkSync',
+      kyberLink:
+        'https://zksync-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-zksync',
+      thegraphLink: '',
+    },
   ],
   block: [
     {
@@ -252,6 +258,12 @@ export const config: {
         'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/aurora-blocks',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/aurora-blocks',
+    },
+    {
+      network: 'ZkSync',
+      kyberLink:
+        'https://zksync-graph.kyberengineering.io/subgraphs/name/kybernetwork/zksync-blocks',
+      thegraphLink: '',
     },
   ],
 
