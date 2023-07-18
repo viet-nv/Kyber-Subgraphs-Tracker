@@ -5,6 +5,7 @@ export enum TAB {
   Aggregator = 'aggregator',
   VietNV = 'elastic-viet-nv',
   ELASTIC_LEGACY = 'elastic-legacy',
+  FEE_COLLECTED = 'fee-collected',
 }
 
 export const config: {
@@ -496,6 +497,79 @@ export const config: {
       network: 'Oasis',
       kyberLink:
         'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-oasis-legacy',
+      thegraphLink: '',
+    },
+    {
+      network: 'Aurora',
+      kyberLink: '',
+      thegraphLink: '',
+    },
+  ],
+
+  'fee-collected': [
+    {
+      network: 'Ethereum',
+      kyberLink:
+          'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-ethereum',
+      thegraphLink: '',
+    },
+    {
+      network: 'BSC',
+      kyberLink:
+          'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-bsc',
+      thegraphLink: '',
+    },
+    {
+      network: 'Polygon',
+      kyberLink:
+          'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-polygon',
+      thegraphLink: '',
+    },
+    {
+      network: 'Avalanche',
+      kyberLink:
+          'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-avalanche',
+      thegraphLink: '',
+    },
+    {
+      network: 'Arbitrum',
+      kyberLink:
+          'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-arbitrum',
+      thegraphLink: '',
+    },
+    {
+      network: 'Optimism',
+      kyberLink:
+          'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-optimism',
+      thegraphLink: '',
+    },
+    {
+      network: 'Fantom',
+      kyberLink:
+          'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-fantom',
+      thegraphLink: '',
+    },
+    {
+      network: 'BTTC',
+      kyberLink:
+          'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-bttc',
+      thegraphLink: '',
+    },
+    {
+      network: 'Cronos',
+      kyberLink:
+          'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-cronos',
+      thegraphLink: '',
+    },
+    {
+      network: 'Velas',
+      kyberLink: '',
+      thegraphLink: '',
+    },
+    {
+      network: 'Oasis',
+      kyberLink:
+          'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-oasis',
       thegraphLink: '',
     },
     {
