@@ -510,55 +510,55 @@ export const config: {
     {
       network: 'Ethereum',
       kyberLink:
-          'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-ethereum',
+          'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-ethereum',
       thegraphLink: '',
     },
     {
       network: 'BSC',
       kyberLink:
-          'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-bsc',
+          'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bsc',
       thegraphLink: '',
     },
     {
       network: 'Polygon',
       kyberLink:
-          'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-polygon',
+          'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-polygon',
       thegraphLink: '',
     },
     {
       network: 'Avalanche',
       kyberLink:
-          'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-avalanche',
+          'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-avalanche',
       thegraphLink: '',
     },
     {
       network: 'Arbitrum',
       kyberLink:
-          'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-arbitrum',
+          'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-arbitrum',
       thegraphLink: '',
     },
     {
       network: 'Optimism',
       kyberLink:
-          'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-optimism',
+          'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-optimism',
       thegraphLink: '',
     },
     {
       network: 'Fantom',
       kyberLink:
-          'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-fantom',
+          'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-fantom',
       thegraphLink: '',
     },
     {
       network: 'BTTC',
       kyberLink:
-          'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-bttc',
+          'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bttc',
       thegraphLink: '',
     },
     {
       network: 'Cronos',
       kyberLink:
-          'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-cronos',
+          'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-cronos',
       thegraphLink: '',
     },
     {
@@ -569,12 +569,13 @@ export const config: {
     {
       network: 'Oasis',
       kyberLink:
-          'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-fee-collected-oasis',
+          'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-oasis',
       thegraphLink: '',
     },
     {
       network: 'Aurora',
-      kyberLink: '',
+      kyberLink:
+          'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-aurora/graphql',
       thegraphLink: '',
     },
   ],
