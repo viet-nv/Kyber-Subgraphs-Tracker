@@ -3,7 +3,6 @@ export enum TAB {
   Classic = 'classic',
   Block = 'block',
   Aggregator = 'aggregator',
-  VietNV = 'elastic-viet-nv',
   ELASTIC_LEGACY = 'elastic-legacy',
   FEE_COLLECTED = 'fee-collected',
 }
