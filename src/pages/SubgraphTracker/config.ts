@@ -90,6 +90,13 @@ export const config: {
       kyberLink: '',
       thegraphLink: '',
     },
+    {
+      network: 'Linea',
+      kyberLink:
+        'https://linea-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-linea',
+      thegraphLink:
+        'https://graph-query.linea.build/subgraphs/name/kybernetwork/kyberswap-elastic-linea',
+    },
   ],
   classic: [
     {
@@ -177,6 +184,13 @@ export const config: {
       kyberLink:
         'https://zksync-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-zksync',
       thegraphLink: '',
+    },
+    {
+      network: 'Linea',
+      kyberLink:
+        'https://linea-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-classic-linea',
+      thegraphLink:
+        'https://graph-query.linea.build/subgraphs/name/kybernetwork/kyberswap-classic-linea',
     },
   ],
   block: [
@@ -266,6 +280,13 @@ export const config: {
         'https://zksync-graph.kyberengineering.io/subgraphs/name/kybernetwork/zksync-blocks',
       thegraphLink: '',
     },
+    {
+      network: 'Linea',
+      kyberLink:
+        'https://linea-graph.kyberengineering.io/subgraphs/name/kybernetwork/linea-blocks',
+      thegraphLink:
+        'https://graph-query.linea.build/subgraphs/name/kybernetwork/linea-blocks',
+    },
   ],
 
   aggregator: [
@@ -349,86 +370,18 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-aurora',
     },
-  ],
-
-  'elastic-viet-nv': [
     {
-      network: 'Ethereum',
+      network: 'ZkSync',
       kyberLink:
-        'https://ethereum-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-ethereum',
-      thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-ethereum',
-    },
-    {
-      network: 'BSC',
-      kyberLink:
-        'https://bsc-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-bsc',
-      thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-bsc',
-    },
-    {
-      network: 'Polygon',
-      kyberLink:
-        'https://polygon-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-polygon',
-      thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-matic',
-    },
-    {
-      network: 'Avalanche',
-      kyberLink:
-        'https://avalanche-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-avalanche',
-      thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-avalanche',
-    },
-    {
-      network: 'Arbitrum',
-      kyberLink:
-        'https://arbitrum-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-arbitrum',
-      thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-arbitrum-one',
-    },
-    {
-      network: 'Optimism',
-      kyberLink:
-        'https://optimism-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-optimism',
-      thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-optimism',
-    },
-    {
-      network: 'Fantom',
-      kyberLink:
-        'https://fantom-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-fantom',
-      thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-elastic-fantom',
-    },
-    {
-      network: 'BTTC',
-      kyberLink:
-        'https://bttc-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-bttc',
+        'https://zksync-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-zksync',
       thegraphLink: '',
     },
     {
-      network: 'Cronos',
+      network: 'Linea',
       kyberLink:
-        'https://cronos-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-cronos',
-      thegraphLink: '',
-    },
-    {
-      network: 'Velas',
-      kyberLink:
-        'https://velas-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-velas',
-      thegraphLink: '',
-    },
-    {
-      network: 'Oasis',
-      kyberLink:
-        'https://oasis-graph.kyberengineering.io/subgraphs/name/viet-nv/kyberswap-elastic-oasis',
-      thegraphLink: '',
-    },
-    {
-      network: 'Aurora',
-      kyberLink: '',
-      thegraphLink: '',
+        'https://linea-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-zksync',
+      thegraphLink:
+        'https://graph-query.linea.build/subgraphs/name/kybernetwork/kyberswap-aggregator-linea',
     },
   ],
 
@@ -510,55 +463,55 @@ export const config: {
     {
       network: 'Ethereum',
       kyberLink:
-          'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-ethereum',
+        'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-ethereum',
       thegraphLink: '',
     },
     {
       network: 'BSC',
       kyberLink:
-          'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bsc',
+        'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bsc',
       thegraphLink: '',
     },
     {
       network: 'Polygon',
       kyberLink:
-          'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-polygon',
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-polygon',
       thegraphLink: '',
     },
     {
       network: 'Avalanche',
       kyberLink:
-          'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-avalanche',
+        'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-avalanche',
       thegraphLink: '',
     },
     {
       network: 'Arbitrum',
       kyberLink:
-          'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-arbitrum',
+        'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-arbitrum',
       thegraphLink: '',
     },
     {
       network: 'Optimism',
       kyberLink:
-          'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-optimism',
+        'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-optimism',
       thegraphLink: '',
     },
     {
       network: 'Fantom',
       kyberLink:
-          'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-fantom',
+        'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-fantom',
       thegraphLink: '',
     },
     {
       network: 'BTTC',
       kyberLink:
-          'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bttc',
+        'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bttc',
       thegraphLink: '',
     },
     {
       network: 'Cronos',
       kyberLink:
-          'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-cronos',
+        'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-cronos',
       thegraphLink: '',
     },
     {
@@ -569,13 +522,13 @@ export const config: {
     {
       network: 'Oasis',
       kyberLink:
-          'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-oasis',
+        'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-oasis',
       thegraphLink: '',
     },
     {
       network: 'Aurora',
       kyberLink:
-          'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-aurora/graphql',
+        'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-aurora/graphql',
       thegraphLink: '',
     },
   ],
