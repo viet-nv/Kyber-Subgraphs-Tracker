@@ -96,6 +96,12 @@ export const config: {
       thegraphLink:
         'https://graph-query.linea.build/subgraphs/name/kybernetwork/kyberswap-elastic-linea',
     },
+    {
+      network: 'Polygon zkEvm',
+      kyberLink:
+        'https://polygon-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-polygon-zkevm',
+      thegraphLink: '',
+    },
   ],
   classic: [
     {
@@ -190,6 +196,12 @@ export const config: {
         'https://linea-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-classic-linea',
       thegraphLink:
         'https://graph-query.linea.build/subgraphs/name/kybernetwork/kyberswap-classic-linea',
+    },
+    {
+      network: 'Polygon zkEvm',
+      kyberLink:
+        'https://polygon-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-polygon-zkevm',
+      thegraphLink: '',
     },
   ],
   block: [
@@ -381,6 +393,12 @@ export const config: {
         'https://linea-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-zksync',
       thegraphLink:
         'https://graph-query.linea.build/subgraphs/name/kybernetwork/kyberswap-aggregator-linea',
+    },
+    {
+      network: 'Polygon zkEvm',
+      kyberLink:
+        'https://polygon-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-polygon-zkevm',
+      thegraphLink: '',
     },
   ],
 
