@@ -73,18 +73,6 @@ export const config: {
       thegraphLink: '',
     },
     {
-      network: 'Velas',
-      kyberLink:
-        'https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-velas',
-      thegraphLink: '',
-    },
-    {
-      network: 'Oasis',
-      kyberLink:
-        'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-oasis',
-      thegraphLink: '',
-    },
-    {
       network: 'Aurora',
       kyberLink: '',
       thegraphLink: '',
@@ -100,6 +88,12 @@ export const config: {
       network: 'Polygon zkEvm',
       kyberLink:
         'https://polygon-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-polygon-zkevm',
+      thegraphLink: '',
+    },
+    {
+      network: 'Base',
+      kyberLink:
+        'https://base-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-base',
       thegraphLink: '',
     },
   ],
@@ -163,18 +157,6 @@ export const config: {
       network: 'Cronos',
       kyberLink:
         'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-cronos',
-      thegraphLink: '',
-    },
-    {
-      network: 'Velas',
-      kyberLink:
-        'https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-velas',
-      thegraphLink: '',
-    },
-    {
-      network: 'Oasis',
-      kyberLink:
-        'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-oasis',
       thegraphLink: '',
     },
     {
@@ -267,18 +249,6 @@ export const config: {
       thegraphLink: '',
     },
     {
-      network: 'Velas',
-      kyberLink:
-        'https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/velas-blocks',
-      thegraphLink: '',
-    },
-    {
-      network: 'Oasis',
-      kyberLink:
-        'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/oasis-blocks',
-      thegraphLink: '',
-    },
-    {
       network: 'Aurora',
       kyberLink:
         'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/aurora-blocks',
@@ -363,18 +333,6 @@ export const config: {
       thegraphLink: '',
     },
     {
-      network: 'Velas',
-      kyberLink:
-        'https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-velas',
-      thegraphLink: '',
-    },
-    {
-      network: 'Oasis',
-      kyberLink:
-        'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-oasis',
-      thegraphLink: '',
-    },
-    {
       network: 'Aurora',
       kyberLink:
         'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-aurora',
@@ -398,6 +356,12 @@ export const config: {
       network: 'Polygon zkEvm',
       kyberLink:
         'https://polygon-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-polygon-zkevm',
+      thegraphLink: '',
+    },
+    {
+      network: 'Base',
+      kyberLink:
+        'https://base-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-base',
       thegraphLink: '',
     },
   ],
@@ -455,18 +419,6 @@ export const config: {
       network: 'Cronos',
       kyberLink:
         'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-cronos-legacy',
-      thegraphLink: '',
-    },
-    {
-      network: 'Velas',
-      kyberLink:
-        'https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-velas-legacy',
-      thegraphLink: '',
-    },
-    {
-      network: 'Oasis',
-      kyberLink:
-        'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-oasis-legacy',
       thegraphLink: '',
     },
     {
@@ -529,17 +481,6 @@ export const config: {
       network: 'Cronos',
       kyberLink:
         'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-cronos',
-      thegraphLink: '',
-    },
-    {
-      network: 'Velas',
-      kyberLink: '',
-      thegraphLink: '',
-    },
-    {
-      network: 'Oasis',
-      kyberLink:
-        'https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-oasis',
       thegraphLink: '',
     },
     {
