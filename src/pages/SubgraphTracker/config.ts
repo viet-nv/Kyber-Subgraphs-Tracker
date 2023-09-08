@@ -93,7 +93,7 @@ export const config: {
     {
       network: 'Base',
       kyberLink:
-        'https://base-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-base',
+        'https://base-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-base',
       thegraphLink: '',
     },
   ],
@@ -361,7 +361,7 @@ export const config: {
     {
       network: 'Base',
       kyberLink:
-        'https://base-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-base',
+        'https://base-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-base',
       thegraphLink: '',
     },
   ],
