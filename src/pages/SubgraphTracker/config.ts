@@ -96,6 +96,12 @@ export const config: {
         'https://base-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-base',
       thegraphLink: '',
     },
+    {
+      network: 'Scroll',
+      kyberLink:
+        'https://scroll-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-scroll',
+      thegraphLink: '',
+    },
   ],
   classic: [
     {
@@ -183,6 +189,12 @@ export const config: {
       network: 'Polygon zkEvm',
       kyberLink:
         'https://polygon-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-polygon-zkevm',
+      thegraphLink: '',
+    },
+    {
+      network: 'Scroll',
+      kyberLink:
+        'https://scroll-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-classic-scroll',
       thegraphLink: '',
     },
   ],
@@ -362,6 +374,12 @@ export const config: {
       network: 'Base',
       kyberLink:
         'https://base-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-base',
+      thegraphLink: '',
+    },
+    {
+      network: 'Scroll',
+      kyberLink:
+        'https://scroll-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-scroll',
       thegraphLink: '',
     },
   ],
