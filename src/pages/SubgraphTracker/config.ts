@@ -5,6 +5,7 @@ export enum TAB {
   Aggregator = 'aggregator',
   ELASTIC_LEGACY = 'elastic-legacy',
   FEE_COLLECTED = 'fee-collected',
+  limit_order = 'limit-order'
 }
 
 export const config: {
@@ -508,4 +509,58 @@ export const config: {
       thegraphLink: '',
     },
   ],
+
+  'limit-order' : [
+      {
+      network: 'Ethereum',
+      kyberLink:'',
+      thegraphLink: 'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-ethereum',
+    },
+      {
+      network: 'BSC',
+      kyberLink:'',
+      thegraphLink: 'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-bsc',
+    },
+      {
+      network: 'Polygon',
+      kyberLink:'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-limit-order-polygon',
+      thegraphLink: 'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-polygon',
+    },
+      {
+      network: 'Avalanche',
+      kyberLink:'',
+      thegraphLink: '',
+    },
+      {
+      network: 'Arbitrum',
+      kyberLink:'',
+      thegraphLink: 'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-arbitrum',
+    },
+      {
+      network: 'Optimism',
+      kyberLink: '',
+      thegraphLink: 'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-optimism',
+    },
+      {
+      network: 'Fantom',
+      kyberLink:'',
+      thegraphLink: 'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-fantom',
+    },
+      {
+      network: 'BTTC',
+      kyberLink: '',
+      thegraphLink: '',
+    },
+      {
+      network: 'Cronos',
+      kyberLink: '',
+      thegraphLink: '',
+    },
+      {
+      network: 'Linea',
+      kyberLink: '',
+      thegraphLink: ''
+    },
+  ]
+
 }
