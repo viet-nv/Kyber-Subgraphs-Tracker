@@ -17,7 +17,7 @@ const Wrapper = styled.div({
 })
 
 const Container = styled.div({
-  maxWidth: '1320px',
+  maxWidth: '1600px',
   margin: 'auto',
   padding: '1rem',
   width: '100%',
@@ -82,6 +82,12 @@ function SubgraphTracker() {
             {
               title: 'TheGraph',
               dataIndex: 'thegraphLink',
+              render: (value) =>
+                !value ? 'Not supported' : <SingleCheck url={value} />,
+            },
+            {
+              title: 'Alchemy',
+              dataIndex: 'alchemyLink',
               render: (value) =>
                 !value ? 'Not supported' : <SingleCheck url={value} />,
             },
