@@ -25,7 +25,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-mainnet',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-mainnet&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-mainnet&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -42,7 +42,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-matic',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-matic&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-matic&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -59,7 +59,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-arbitrum-one',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-arbitrum-one&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-arbitrum-one&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -68,7 +68,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-optimism',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-optimism&chain=optimism',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-optimism&chain=optimism',
     },
     {
       network: 'Fantom',
@@ -123,7 +123,7 @@ export const config: {
     {
       network: 'Scroll',
       kyberLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-scroll&chain=scroll',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-scroll&chain=scroll',
       thegraphLink: '',
       alchemyLink: '',
     },
@@ -136,7 +136,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-ethereum',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-exchange-mainnet&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-exchange-mainnet&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -153,7 +153,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-polygon',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-exchange-matic&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-exchange-matic&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -170,7 +170,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-arbitrum',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-exchange-arbitrum-one&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-exchange-arbitrum-one&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -179,7 +179,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-optimism',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-exchange-optimism&chain=optimism',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-exchange-optimism&chain=optimism',
     },
     {
       network: 'Fantom',
@@ -236,7 +236,7 @@ export const config: {
     {
       network: 'Scroll',
       kyberLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-exchange-scroll&chain=scroll',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-exchange-scroll&chain=scroll',
       thegraphLink: '',
       alchemyLink: '',
     },
@@ -249,7 +249,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ethereum-blocks',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=ethereum-blocks&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=ethereum-blocks&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -266,7 +266,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/polygon-blocks',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=polygon-blocks&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=polygon-blocks&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -283,7 +283,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/arbitrum-blocks',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=arbitrum-blocks&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=arbitrum-blocks&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -292,7 +292,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/optimism-blocks',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=optimism-blocks&chain=optimism',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=optimism-blocks&chain=optimism',
     },
     {
       network: 'Fantom',
@@ -349,7 +349,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-ethereum',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-aggregator-ethereum&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-aggregator-ethereum&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -366,7 +366,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-polygon',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-aggregator-polygon&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-aggregator-polygon&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -383,7 +383,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-arbitrum',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-aggregator-arbitrum&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-aggregator-arbitrum&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -392,7 +392,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-optimism',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-aggregator-optimism&chain=optimism',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-aggregator-optimism&chain=optimism',
     },
     {
       network: 'Fantom',
@@ -469,7 +469,7 @@ export const config: {
         'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-ethereum-legacy',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-mainnet-legacy&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-mainnet-legacy&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -484,7 +484,7 @@ export const config: {
         'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-polygon-legacy',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-matic-legacy&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-matic-legacy&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -499,7 +499,7 @@ export const config: {
         'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-arbitrum-legacy',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-elastic-arbitrum-one-legacy&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-arbitrum-one-legacy&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -507,7 +507,7 @@ export const config: {
         'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-optimism-legacy',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraph.satsuma-prod.com/96841b0c98b3/kyber/kyberswap-elastic-optimism-legacy/api',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-elastic-optimism-legacy&chain=optimism',
     },
     {
       network: 'Fantom',
@@ -545,7 +545,7 @@ export const config: {
         'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-ethereum',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-aggregator-executor-ethereum&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-aggregator-executor-ethereum&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -560,7 +560,7 @@ export const config: {
         'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-polygon',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-aggregator-executor-polygon&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-aggregator-executor-polygon&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -575,7 +575,7 @@ export const config: {
         'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-arbitrum',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-aggregator-executor-arbitrum&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-aggregator-executor-arbitrum&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -583,7 +583,7 @@ export const config: {
         'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-optimism',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-aggregator-executor-optimism&chain=optimism',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-aggregator-executor-optimism&chain=optimism',
     },
     {
       network: 'Fantom',
@@ -623,7 +623,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-ethereum',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-limit-order-ethereum&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-limit-order-ethereum&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -639,7 +639,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-polygon',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-limit-order-polygon&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-limit-order-polygon&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -653,7 +653,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-arbitrum',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-limit-order-arbitrum&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-limit-order-arbitrum&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -661,7 +661,7 @@ export const config: {
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-limit-order-optimism',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyberswap-limit-order-optimism&chain=optimism',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyberswap-limit-order-optimism&chain=optimism',
     },
     {
       network: 'Fantom',
@@ -697,7 +697,7 @@ export const config: {
         'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-knc-holders-ethereum',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-knc-holders-ethereum&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-knc-holders-ethereum&chain=ethereum',
     },
     {
       network: 'BSC',
@@ -712,7 +712,7 @@ export const config: {
         'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-knc-holders-polygon',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-knc-holders-polygon&chain=polygon',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-knc-holders-polygon&chain=polygon',
     },
     {
       network: 'Avalanche',
@@ -727,7 +727,7 @@ export const config: {
         'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-knc-holders-polygon',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-knc-holders-arbitrum&chain=arbitrum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-knc-holders-arbitrum&chain=arbitrum',
     },
     {
       network: 'Optimism',
@@ -735,7 +735,7 @@ export const config: {
         'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-knc-holders-optimism',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-knc-holders-optimism&chain=optimism',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-knc-holders-optimism&chain=optimism',
     },
     {
       network: 'BTTC',
@@ -768,7 +768,7 @@ export const config: {
     {
       network: 'Scroll',
       kyberLink:
-        'https://subgraphs-proxy.dev.kyberengineering.io/?subgraph=kyber-knc-holders-scroll&chain=scroll',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-knc-holders-scroll&chain=scroll',
       thegraphLink: '',
       alchemyLink: '',
     },
