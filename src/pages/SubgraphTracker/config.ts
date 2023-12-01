@@ -697,7 +697,7 @@ export const config: {
         'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-knc-holders-ethereum',
       thegraphLink: '',
       alchemyLink:
-        'https://subgraphs-proxys.kyberengineering.io/?subgraph=kyber-knc-holders-ethereum&chain=ethereum',
+        'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-knc-holders-ethereum&chain=ethereum',
     },
     {
       network: 'BSC',
