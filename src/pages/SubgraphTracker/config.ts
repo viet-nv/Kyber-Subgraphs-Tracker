@@ -6,6 +6,7 @@ export enum TAB {
   FEE_COLLECTED = 'fee-collected',
   limit_order = 'limit-order',
   knc_holders = 'knc-holders',
+  meta_agg_fee = 'meta-aggregator-fee',
 }
 
 export const config: {
@@ -593,6 +594,97 @@ export const config: {
       network: 'Scroll',
       kyberLink:
         'https://subgraphs-proxy.kyberengineering.io/?subgraph=kyber-knc-holders-scroll&chain=scroll',
+      thegraphLink: '',
+    },
+  ],
+
+  'meta-aggregator-fee': [
+    {
+      network: 'Ethereum',
+      kyberLink:
+        'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-ethereum',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/meta-fee-ethereum',
+    },
+    {
+      network: 'BSC',
+      kyberLink:
+        'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-bsc',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/meta-fee-bsc',
+    },
+    {
+      network: 'Polygon',
+      kyberLink:
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-polygon',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/meta-fee-polygon',
+    },
+    {
+      network: 'Avalanche',
+      kyberLink:
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-avalanche',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/meta-fee-avalanche',
+    },
+    {
+      network: 'Abitrum',
+      kyberLink:
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-arbitrum',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/meta-fee-arbitrum',
+    },
+    {
+      network: 'Optimism',
+      kyberLink:
+        'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-optimism',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/meta-fee-optimism',
+    },
+    {
+      network: 'BTTC',
+      kyberLink:
+        'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-bttc',
+      thegraphLink: '',
+    },
+    {
+      network: 'Linea',
+      kyberLink:
+        'https://linea-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-linea',
+      thegraphLink: '',
+    },
+    {
+      network: 'Fantom',
+      kyberLink:
+        'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-fantom',
+      thegraphLink:
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/meta-fee-fantom',
+    },
+    {
+      network: 'Scroll',
+      kyberLink:
+        'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-scroll',
+      thegraphLink: '',
+    },
+
+    {
+      network: 'Cronos',
+      kyberLink:
+        'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-cronos',
+      thegraphLink: '',
+    },
+
+    {
+      network: 'polygon zkevm',
+      kyberLink:
+        'https://polygon-zkevm-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-polygon-zkevm',
+      thegraphLink: '',
+    },
+
+    {
+      network: 'Base',
+      kyberLink:
+        'https://base-graph.kyberengineering.io/subgraphs/name/kybernetwork/meta-aggregator-fee-base',
       thegraphLink: '',
     },
   ],
