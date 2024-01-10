@@ -85,12 +85,6 @@ function SubgraphTracker() {
               render: (value) =>
                 !value ? 'Not supported' : <SingleCheck url={value} />,
             },
-            {
-              title: 'Alchemy',
-              dataIndex: 'alchemyLink',
-              render: (value) =>
-                !value ? 'Not supported' : <SingleCheck url={value} />,
-            },
           ]}
         />
       </Container>
