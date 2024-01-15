@@ -143,7 +143,7 @@ export const config: {
       kyberLink:
         'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-arbitrum',
       thegraphLink:
-        'https://api.thegraph.com/subgraphs/name/viet-nv/kyberswap-arbitrum',
+        'https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-arbitrum',
     },
     {
       network: 'Optimism',
@@ -394,68 +394,68 @@ export const config: {
     {
       network: 'Ethereum',
       kyberLink:
-        'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-ethereum',
+        'https://ethereum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-ethereum',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-ethereum',
     },
     {
       network: 'BSC',
       kyberLink:
-        'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bsc',
+        'https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-bsc',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-bsc',
     },
     {
       network: 'Polygon',
       kyberLink:
-        'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-polygon',
+        'https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-polygon',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-polygon',
     },
     {
       network: 'Avalanche',
       kyberLink:
-        'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-avalanche',
+        'https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-avalanche',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-avalanche',
     },
     {
       network: 'Arbitrum',
       kyberLink:
-        'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-arbitrum',
+        'https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-arbitrum',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-arbitrum',
     },
     {
       network: 'Optimism',
       kyberLink:
-        'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-optimism',
+        'https://optimism-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-optimism',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-optimism',
     },
     {
       network: 'Fantom',
       kyberLink:
-        'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-fantom',
+        'https://fantom-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-fantom',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-fantom',
     },
     {
       network: 'BTTC',
       kyberLink:
-        'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-bttc',
+        'https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-bttc',
       thegraphLink: '',
     },
     {
       network: 'Cronos',
       kyberLink:
-        'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-cronos',
+        'https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-cronos',
       thegraphLink: '',
     },
     {
       network: 'Aurora',
       kyberLink:
-        'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregator-executor-aurora/graphql',
+        'https://aurora-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-aggregation-executor-aurora/graphql',
       thegraphLink:
         'https://api.thegraph.com/subgraphs/name/kybernetwork/ks-aggregator-fee-aurora',
     },
